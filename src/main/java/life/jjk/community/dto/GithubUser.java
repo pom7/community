@@ -5,9 +5,9 @@ package life.jjk.community.dto;
  * @create 2020-01-28 15:54
  **/
 public class GithubUser {
-    private String name;
-    private long id;
-    private String bio;
+    public String name;
+    public long id;
+    public String bio;
 
     public GithubUser() {
         super();
@@ -42,4 +42,6 @@ public class GithubUser {
     public void setBio(String bio) {
         this.bio = bio;
     }
+
+
 }
